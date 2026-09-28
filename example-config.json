@@ -1,0 +1,16 @@
+{
+  "appName": "MyNewApp",
+  "oldAppName": "OldAppName",
+  "apiBaseUrl": "https://api.mynewapp.com",
+  "oldApiBaseUrl": "https://api.oldapp.com",
+  "apiKey": "sk-new-secret-key",
+  "oldApiKey": "sk-old-secret-key",
+  "images": {
+    "logo.png": "logo.png",
+    "favicon.ico": "favicon.ico"
+  },
+  "replacements": [
+    { "from": "Old Company", "to": "New Company" },
+    { "from": "old-support@example.com", "to": "support@mynewapp.com" }
+  ]
+}
