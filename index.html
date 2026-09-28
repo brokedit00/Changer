@@ -1,0 +1,28 @@
+Frontend Changer
+Rebrand any frontend — change name, images, API URLs & keys in one click
+1 Project ZIP
+Upload your full project or frontend folder (as .zip)
+Supports React, Next.js, Vue, plain HTML, etc. Max 100 MB.
+2 Change Config (JSON) Load example config
+Paste or edit the JSON config
+{
+  "appName": "MyNewApp",
+  "oldAppName": "OldAppName",
+  "apiBaseUrl": "https://api.mynewapp.com",
+  "oldApiBaseUrl": "https://api.oldapp.com",
+  "apiKey": "sk-new-secret-key",
+  "oldApiKey": "sk-old-secret-key",
+  "images": {
+    "logo.png": "logo.png",
+    "favicon.ico": "favicon.ico"
+  },
+  "replacements": [
+    { "from": "Old Company", "to": "New Company" }
+  ]
+}
+• oldAppName → appName (titles, package.json, etc.) • oldApiBaseUrl → apiBaseUrl • oldApiKey → apiKey • images maps uploaded filename → target filename in project • replacements = extra find/replace pairs
+3 New Images (optional)
+Upload new logo, favicon, etc.
+Filename should match the key in config.images (e.g. logo.png)
+✨ Change Frontend & Download
+Frontend Changer • Only modifies frontend files • Does not touch backend logic
